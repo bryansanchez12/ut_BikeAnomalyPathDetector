@@ -1,0 +1,134 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.locationlistener"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the "MyLocation" functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:10:5-81
+16-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:11:5-75
+17-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:11:22-73
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:12:5-78
+18-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:13:5-66
+19-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:13:22-64
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\bryan\.gradle\caches\transforms-3\b5c25d7a48148c73ceb291032312e2d9\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\bryan\.gradle\caches\transforms-3\b5c25d7a48148c73ceb291032312e2d9\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\bryan\.gradle\caches\transforms-3\b5c25d7a48148c73ceb291032312e2d9\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
+24
+25    <queries>
+25-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\bryan\.gradle\caches\transforms-3\b5c25d7a48148c73ceb291032312e2d9\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+26
+27        <!-- Needs to be explicitly declared on Android R+ -->
+28        <package android:name="com.google.android.apps.maps" />
+28-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\bryan\.gradle\caches\transforms-3\b5c25d7a48148c73ceb291032312e2d9\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+28-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\bryan\.gradle\caches\transforms-3\b5c25d7a48148c73ceb291032312e2d9\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+29    </queries>
+30
+31    <application
+31-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:15:5-56:19
+32        android:allowBackup="true"
+32-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:18:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.5.0] C:\Users\bryan\.gradle\caches\transforms-3\255d63c0f9f8f5d12ab3191ffb377750\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:19:9-43
+36        android:label="@string/app_name"
+36-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:20:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:21:9-54
+38        android:supportsRtl="true"
+38-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:22:9-35
+39        android:testOnly="true"
+40        android:theme="@style/Theme.LocationListener" >
+40-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:23:9-54
+41        <activity
+41-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:24:9-35:20
+42            android:name="com.example.locationlistener.initialPage"
+42-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:25:13-40
+43            android:exported="true" >
+43-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:26:13-36
+44            <intent-filter>
+44-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:28:13-32:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:29:17-69
+45-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:29:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:31:17-77
+47-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:31:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <!--
+52             The API key for Google Maps-based APIs is defined as a string resource.
+53             (See the file "res/values/google_maps_api.xml").
+54             Note that the API key is linked to the encryption key used to sign the APK.
+55             You need a different API key for each encryption key, including the release key that is used to
+56             sign the APK for publishing.
+57             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+58        -->
+59        <meta-data
+59-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:45:9-47:71
+60            android:name="com.google.android.geo.API_KEY"
+60-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:46:13-58
+61            android:value="AIzaSyBvJSX84PXtWNIUZPN-z5djVqKRIxbyPtE" />
+61-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:47:13-68
+62
+63        <activity
+63-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:49:9-55:20
+64            android:name="com.example.locationlistener.GPSTracker"
+64-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:50:13-39
+65            android:exported="false"
+65-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:51:13-37
+66            android:label="@string/title_activity_maps" >
+66-->C:\Users\bryan\Desktop\Third_Year\Mod9_Smart Spaces\Theme1\smartspaces1\app\src\main\AndroidManifest.xml:52:13-56
+67        </activity>
+68        <!-- Needs to be explicitly declared on P+ -->
+69        <uses-library
+69-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\bryan\.gradle\caches\transforms-3\b5c25d7a48148c73ceb291032312e2d9\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+70            android:name="org.apache.http.legacy"
+70-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\bryan\.gradle\caches\transforms-3\b5c25d7a48148c73ceb291032312e2d9\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+71            android:required="false" />
+71-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\bryan\.gradle\caches\transforms-3\b5c25d7a48148c73ceb291032312e2d9\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+72
+73        <activity
+73-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\bryan\.gradle\caches\transforms-3\2741ab75c4ca9c5a4fed7205aeaaa3ac\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+74-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\bryan\.gradle\caches\transforms-3\2741ab75c4ca9c5a4fed7205aeaaa3ac\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+75            android:exported="false"
+75-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\bryan\.gradle\caches\transforms-3\2741ab75c4ca9c5a4fed7205aeaaa3ac\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+76-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\bryan\.gradle\caches\transforms-3\2741ab75c4ca9c5a4fed7205aeaaa3ac\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+77
+78        <meta-data
+78-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\bryan\.gradle\caches\transforms-3\30df76c4de37f3632720df7fe234676e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+79            android:name="com.google.android.gms.version"
+79-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\bryan\.gradle\caches\transforms-3\30df76c4de37f3632720df7fe234676e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+80            android:value="@integer/google_play_services_version" />
+80-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\bryan\.gradle\caches\transforms-3\30df76c4de37f3632720df7fe234676e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+81    </application>
+82
+83</manifest>
