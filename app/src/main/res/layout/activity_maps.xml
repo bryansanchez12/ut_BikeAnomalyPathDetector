@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        android:layout_weight="1.0"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="350dp"
+            android:layout_height="450dp"
+            android:layout_centerInParent="true" />
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/DAWN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:baselineAligned="false"
+        android:ems="10"
+        android:hint="Enter down values"
+        android:minHeight="48dp"
+        android:rotationX="0"
+        android:translationX="10dp"
+        android:translationY="550dp" />
+
+    <EditText
+        android:id="@+id/UP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="402dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginRight="47dp"
+        android:ems="10"
+        android:hint="Enter Up Values"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:rotationX="0"
+        android:translationX="10dp"
+        android:translationY="100dp" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="540dp"
+        android:text="CLEAR"
+        android:backgroundTint="#e86242"
+        android:translationX="100dp"
+        android:translationY="0dp" />
+
+
+
+    <TextView
+        android:id="@+id/cValues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginEnd="0dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="183dp"
+        android:layout_marginTop="20dp"
+        android:text="SUBMIT"
+        android:backgroundTint="#e86242"
+        android:translationX="-120dp"
+        android:translationY="600dp" />
+
+</RelativeLayout>
