@@ -1,0 +1,17 @@
+com/example/locationlistener/GPSTracker.java
+ com.example.locationlistener.GPSTracker
+ com.example.locationlistener.GPSTracker$1
+ com.example.locationlistener.GPSTracker$2
+com/example/locationlistener/databinding/ActivityMapsBinding.java
+ com.example.locationlistener.databinding.ActivityMapsBinding
+com/example/locationlistener/BuildConfig.java
+ com.example.locationlistener.BuildConfig
+com/example/locationlistener/databinding/ActivityInitialPageBinding.java
+ com.example.locationlistener.databinding.ActivityInitialPageBinding
+com/example/locationlistener/ServiceHandler.java
+ com.example.locationlistener.ServiceHandler
+com/example/locationlistener/SendData.java
+ com.example.locationlistener.SendData
+com/example/locationlistener/initialPage.java
+ com.example.locationlistener.initialPage
+ com.example.locationlistener.initialPage$1
