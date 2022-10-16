@@ -3,7 +3,7 @@ Android app which keeps track of the user while cycling over the map and registe
 
 There is also a web application that shows where an anomaly has been registered and describes what kind is: 
 - Anomaly up: bump in the road
--Anomaly down: hole in the road
+- Anomaly down: hole in the road
 
 **Requirements:**
 
