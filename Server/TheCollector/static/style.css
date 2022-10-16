@@ -1,0 +1,111 @@
+/*  Style Sheet */
+body{
+    background: #ECECE4;
+}
+
+.img_logo{
+    height: 200px;
+    weight: 100px;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 500px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+
+.cardJ{
+    position: center;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-family: "Lucida Calligraphy", monospace;
+    font-size: 30px;
+    width: 20px;
+    height:600px;
+    box-shadow: 5px 5px #b7b4b4;
+    padding-top: 10px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.my-custom-scrollbar {
+position: relative;
+height: 200px;
+overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+display: block;
+}
+
+table{
+    font-family: "Berlin Sans FB", serif;
+    font-size: 20px;
+}
+
+.cardB{
+    position: center;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-family: "Lucida Calligraphy", monospace;
+    font-size: 30px;
+    width: 100000px;
+    height:600px;
+    box-shadow: 5px 5px #b7b4b4;
+    padding-top: 10px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.cardM{
+    position: center;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-family: "Lucida Calligraphy", monospace;
+    font-size: 30px;
+    width: 50%;
+    height:400px;
+    box-shadow: 5px 5px #b7b4b4;
+    padding-top: 10px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.card{
+    position: center;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.wrapper{
+    padding-top: 20px;
+}
+
+.page-content{
+    padding-top: 15px;
+}
+
+.ipt{
+    height: 80%;
+}
+
+.px-2 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.it-right{
+    float: right}
+
+#name{
+    text-align: center;
+    font-size: 80px;
+    font-family: "Agency FB", sans-serif;}
+

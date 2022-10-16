@@ -1,0 +1,9 @@
+/*  Style Sheet */
+body{
+    background: deepskyblue;
+}
+
+.img_logo{
+    height: 200px;
+    weight: 100px;
+}

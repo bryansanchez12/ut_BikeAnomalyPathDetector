@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Road Anomalies Detection</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+
+    <div class="row">
+
+        <div class="col">
+            <p id="name">Challenge 1 - Smart Spaces</p>
+
+            <div class="row">
+               <div class="col-3 card cardJ">
+                   <div id="Anomalies">
+                       <p>Real-Time Anomalies</p>
+                   </div>
+                   <!-- Table with global scores -->
+                   <div class="table-wrapper-scroll-y my-custom-scrollbar">
+                       <table class="table">
+                           <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Anomaly type</th>
+                                    <th scope="col">Check</th>
+                                </tr>
+                           </thead>
+                           <tbody id="tAnomalies">
+
+                           </tbody>
+                        </table>
+                    </div>
+               </div>
+
+               <div class="col-7 card cardB">
+                   <div class="card-header">
+                       On Map
+                   </div>
+
+                   <div id="map"></div>
+                   <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+                   <script
+                      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZ65BMLCLP-3LMXsWDNthoFQzKkrkHCPg&callback=initMap&libraries=&v=weekly"
+                      async
+                   >
+                   </script>
+
+               </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+</body>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>
